@@ -4,14 +4,6 @@ A full-stack web application to manage and visualize your income and expenses. B
 
 ---
 
-## 📸 Demo
-
-![Dashboard](assets/Dashboard.JPG)
-![Expense](assets/Expense.JPG)
-![Incomes](assets/Income.JPG)
-
----
-
 ## 🚀 Features
 
 - ✅ Add, edit, and delete income/expense entries
