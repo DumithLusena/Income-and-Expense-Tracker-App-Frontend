@@ -1,0 +1,80 @@
+// Variables (optional for consistency)
+$sidebar-bg: #001529;
+$sidebar-text: #ffffff;
+$hover-bg: #1890ff;
+$avatar-size: 48px;
+
+  nz-sider {
+    background: $sidebar-bg;
+
+    ul[nz-menu] {
+      background: transparent;
+
+      li[nz-menu-item] {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        color: $sidebar-text;
+        transition: background 0.3s;
+
+        &:hover {
+          background: $hover-bg;
+        }
+      }
+    }
+  }
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: rgba(255,255,255,0.2);
+  margin: 16px;
+  padding: 0 16px;
+  color: white;
+}
+
+.avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info strong{
+  font-size: 16px;
+}
+
+.user-info span{
+  font-size: 13px;
+}
+
+.layout{
+  min-height: 100vh;
+}
+
+.right-layout{
+  margin-left: 30px;
+}
+
+nz-header{
+  padding: 0;
+  height: 75px;
+}
+
+nz-content{
+  margin: 24px 16px 0;
+  overflow: initial;
+}
+
+.inner-content{
+  padding: 24px;
+  background: white;
+  text-align: center;
+}
+
